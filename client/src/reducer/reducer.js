@@ -11,6 +11,7 @@ export const reducer = (state, action) => {
         case FETCH_PICTURE_LOADING:
             return {
                 ...state,
+                picture: "",
                 isLoading: true,
                 error: null
             };
