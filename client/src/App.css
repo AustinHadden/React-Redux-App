@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  background-color: #49f4d8;
+  height: 100vh;
+}
+
+.buttons button {
+  background-color: #f44965;
+  color: white;
+  padding: 15px 32px;
+  outline: none;
+  font-size: 18px;
+  border-radius: 8px;
+  margin: 20px;
+  border: none;
+}
+
+.buttons button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.buttons .greyButton {
+  background-color: grey;
+  color: black;
+}
+
+.image img {
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
